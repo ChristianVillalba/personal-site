@@ -1,4 +1,4 @@
-# personal-site
+# Personal-Site
 This is a static site (HTML , CSS &amp; JS) 
 
 This project combines two different templates from startbootstrap.com: "Agency" & "Resume". \
