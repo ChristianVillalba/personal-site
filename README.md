@@ -5,7 +5,7 @@ This project combines two different templates from startbootstrap.com: "Agency" 
 I liked the structure available in "Resume" but I needed a portfolio section to include my projects and the section in "Agency" was what I was looking for.\
 I personalized the content and the styles working directly with the Bootstrap Repository instead of using the CDN in order to custom the elements and get used to the elements available in this framework.
 
-This project includes links to my Github Page and my LinkedIn Profile.
+This project includes links to my GitHub Page and my LinkedIn Profile.
 
 The projects in my portfolio are:
 -Drum Kit
@@ -27,4 +27,4 @@ Links to projects not included.
 -Django: Social Media Site
 -"This site"
 All the projects are already on my GitHub Repositories.
-NO personal information (email, phone number, etc uploaded to GitHub)
+No personal information included (email, phone number, LinkedIn, etc uploaded to GitHub).
