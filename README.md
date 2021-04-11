@@ -20,11 +20,11 @@ Each project includes a brief description and a link to its repository on GitHub
 
 The section "CERTIFICATIONS" includes links to the certifications I obtained by finishing the listed courses.
 
-Uploaded version: 
-Links to projects not included. 
--Drum Kit
--Simon Game
--Django: Social Media Site
--"This site"
-All the projects are already on my GitHub Repositories.
+Uploaded version:\ 
+Links to projects not included.\ 
+-Drum Kit\
+-Simon Game\
+-Django: Social Media Site\
+-"This site"\
+All the projects are already on my GitHub Repositories.\
 No personal information included (email, phone number, LinkedIn, etc uploaded to GitHub).
