@@ -20,7 +20,7 @@ Each project includes a brief description and a link to its repository on GitHub
 
 The section "CERTIFICATIONS" includes links to the certifications I obtained by finishing the listed courses.
 
-Uploaded version:\ 
+Uploaded version:\
 Links to projects not included.\ 
 -Drum Kit\
 -Simon Game\
