@@ -28,3 +28,4 @@ Links to projects not included.\
 -"This site"\
 All the projects are already on my GitHub Repositories.\
 No personal information included (email, phone number, LinkedIn, etc uploaded to GitHub).
+Adapted to extra small viewports (≥576px)
