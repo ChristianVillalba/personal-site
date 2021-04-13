@@ -10139,12 +10139,20 @@ section.resume-section .resume-section-content {
   /* margin-left: auto;
   margin-right: auto; */
 }
+@media (max-width:576px) {
+  #portfolio .portfolio-item{
+    max-width: 21rem;
+    margin-left: auto;
+   margin-right: auto;
+  }
+}
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto;
   border: 1px solid #1b6ca8;
 }
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
@@ -10237,5 +10245,17 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+@media (max-width:576px) {
+  h1, .h1 {
+      font-size: 5rem;
+  }
+  h2, .h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  h3, .h3 {
+    font-size: 1.5rem;
   }
 }
