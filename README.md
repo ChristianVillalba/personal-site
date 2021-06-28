@@ -15,10 +15,11 @@ This project includes links to my GitHub Page and my LinkedIn Profile.
 All the projects in the PORTFOLIO Section refer to technical skills listed on the "SKILLS" Section on the Site:   
  
 The projects in my PORTFOLIO are:  
--Drum Kit  
--Simon Game  
--Django: Social Media Site  
--"This site": instead of open a project, it will describe this site and takes to the Repository on GitHub.  
+* Django: Social Media Site  
+* Drum Kit  
+* Simon Game  
+* "This site": instead of open a project, it will describe this site and takes to the Repository on GitHub.  
+
 All the projects except this site were created following some tutorial , however,  
 I personalized every single project to add some functionality, change the style or make the design responsive to different viewports.  
 Each project includes a brief description and a link to its own repository on GitHub.
@@ -27,22 +28,23 @@ The section "CERTIFICATIONS" includes links to the certifications I obtained by 
 
 ## What I’ve learned from this project
 
-· 
-· 
-·    
-·   
-·              
-· 
+* The importance of responsive designs  
+* Focus on Simplicity and Functionality
+* This project was deployed online:
+    * Using domain names and DNS protocols.
+    * Pointing Domain Names to Hosting Services
+    * Using Hosting Services
+    * Deployment of static websites
+    * Using FTP Protocol
 
 
 ## Author
 
 Christian Villalba
 
-
 ## Acknowledgments
 * [Dr Angela Yu](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 * [Bootstrap - Resume](https://startbootstrap.com/previews/resume)
 * [Bootstrap - Agency](https://startbootstrap.com/previews/agency)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [A simple README](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 
