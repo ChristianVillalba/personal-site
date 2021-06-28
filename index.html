@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1," />
   <meta name="description" content="Software Developer passionate about learning and keep up with new technologies." />
   <meta name="author" content="Christian Villalba" />
   <title>Christian Villalba</title>
@@ -13,13 +13,18 @@
   <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <!-- Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <!-- Link to background image here: -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="background-image: url('assets/img/fractalClearBlueZ.jpg')">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Christian Villalba</span>
       <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
@@ -46,19 +51,17 @@
           <span class="text-primary">Villalba</span>
         </h1>
         <div class="personal-info mb-5">
-          Xxxxxx , Xxxxxxxx · United Kingdom · 07491 XXXXXX ·
-          <a href="mailto:christianvillalba@email.com">christianvillalba@email.com</a>
+          Reading , Berkshire · United Kingdom · 07491 XXXXXX ·
+          <a href="mailto:christianvillalba.uk@xxxxx.com">christianvillalba.uk@xxxxx.com</a>
         </div>
-        <p class="lead mb-5">Software Developer passionate about learning and keep up with new technologies.</p>
+        <p class="lead mb-5">Software Developer passionate about learning
+          <br> and keep up with new technologies.</p>
         <div class="social-icons">
-          <a class="social-icon" href="https://www.linkedin.com/in/christian-villalba-2233ab206/" target="_blank"
-          data-toggle="tooltip" data-placement="top" title="Go to my LinkedIn Profile">
+          <a class="social-icon" href="https://www.linkedin.com/in/christian-villalba-2233ab206/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to my LinkedIn Profile">
             <i class="fab fa-linkedin-in"></i></a>
-          <a class="social-icon" href="https://github.com/ChristianVillalba" target="_blank"
-          data-toggle="tooltip" data-placement="top" title="Go to my GitHub Profile">
+          <a class="social-icon" href="https://github.com/ChristianVillalba" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to my GitHub Profile">
             <i class="fab fa-github"></i></a>
-          <a class="social-icon" href="mailto:christianvillalba@email.com" target="_blank"
-          data-toggle="tooltip" data-placement="top" title="Send me an email">
+          <a class="social-icon" href="mailto:christianvillalba.uk@xxxxx.com" target="_blank" data-toggle="tooltip" data-placement="top" title="Send me an email">
             <i class="fas fa-envelope"></i></a>
         </div>
       </div>
@@ -71,7 +74,8 @@
         <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
           <div class="flex-grow-1">
             <h3 class="mb-0">TECHNICAL SKILLS</h3>
-            <div class="tech-skill"><i class="fab fa-python"></i> Python & Django</div>
+            <div class="tech-skill"><i class="fab fa-python"></i> Django</div>
+            <div class="tech-skill"><i class="fab fa-python"></i> Python</div>
             <div class="tech-skill"><i class="fab fab fa-js-square"></i> JavaScript & jQuery</div>
             <div class="tech-skill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
             <div class="tech-skill"><i class="fab fa-css3-alt"></i> CSS</div>
@@ -82,11 +86,12 @@
         <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
           <div class="flex-grow-1">
             <h3 class="mb-0">PERSONAL SKILLS</h3>
-            <div class="personal-skill"><i class="far fa-check-circle"></i> Enjoy collaborative problem solving environments.</div>
+            <div class="personal-skill"><i class="far fa-check-circle"></i> Enjoy collaborative problem solving activities.</div>
             <div class="personal-skill"><i class="far fa-check-circle"></i> Love of interactive, customer-centric development.</div>
-            <div class="personal-skill"><i class="far fa-check-circle"></i> Passionate about new technologies but pragmatic about getting things done.</div>
-            <!-- <div class="personal-skill"><i class="far fa-check-circle"></i> Interest in Responsive Design, Mobile-First. </div> -->
             <div class="personal-skill"><i class="far fa-check-circle"></i> Comfortable operating in a rapidly changing environment.</div>
+            <div class="personal-skill"><i class="far fa-check-circle"></i> Passionate about new technologies.</div>
+            <!-- <div class="personal-skill"><i class="far fa-check-circle"></i> Interest in Responsive Design, Mobile-First. </div> -->
+
           </div>
         </div>
 
@@ -99,269 +104,299 @@
         <div class="container">
           <h2 class="mb-4">Portfolio</h2>
           <!-- <h3 class="section-subheading text-muted">These are some projects, more available on my GitHub Page.</h3> -->
-        <div class="row">
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Social Media Site</div>
+                  <div class="portfolio-caption-subheading text-muted"><b>Django</b></div>
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Social Media Site</div>
-                <div class="portfolio-caption-subheading text-muted">Django</div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            <div class="col-lg-6 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Simon Game</div>
+                  <div class="portfolio-caption-subheading text-muted"><b>jQuery</b></div>
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Simon Game</div>
-                <div class="portfolio-caption-subheading text-muted">jQuery</div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            <div class="col-lg-6 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Drum Kit</div>
+                  <div class="portfolio-caption-subheading text-muted"><b>JavaScript</b></div>
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Drum Kit</div>
-                <div class="portfolio-caption-subheading text-muted">JavaScript</div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">This Site</div>
+                  <div class="portfolio-caption-subheading text-muted"><b>Bootstrap</b></div>
                 </div>
-                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">This Site</div>
-                <div class="portfolio-caption-subheading text-muted">Bootstrap</div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
-        </div>
+  </div>
 
-    <!-- Modal 1-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Social Media Site</h2>
-                  <p class="item-intro text-muted">Django</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Objective: Create a functional social media site.</li>
-                    <li>Main technology: Django (Python) </li>
-                    <li>Other Technologies: HTML & CSS</li>
-                  </ul>
-                  <button class="btn btn-secondary btn-modal mb-1" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Description
-                  </button>
-                  <a class="btn btn-dark btn-modal mb-1" href="https://github.com/ChristianVillalba/" target="_blank">
-                    <i class="fab fa-github mr-1"></i>
-                    Code on GitHub
-                  </a>
-                  <a class="btn btn-primary btn-modal mb-1" href="" target="_blank">
-                    <i class="fas fa-folder-open mr-1"></i>
-                    Open This Project
-                  </a>
-                </div>
+  <!-- Modal 1-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project Details Go Here-->
+                <h2 class="text-uppercase">Social Media Site</h2>
+                <p class="item-intro text-muted"><b>Django</b></p>
+                <a href="http://christianvillalba.pythonanywhere.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" /></a>
+                <button class="btn btn-secondary btn-modal mb-1" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Description
+                </button>
+                <a class="btn btn-dark btn-modal mb-1" href="https://github.com/ChristianVillalba/social_media" target="_blank">
+                  <i class="fab fa-github mr-1"></i>
+                  Code on GitHub
+                </a>
+                <a class="btn btn-primary btn-modal mb-1" href="http://christianvillalba.pythonanywhere.com/" target="_blank">
+                  <i class="fas far fa-eye mr-1"></i>
+                  Live Preview
+                </a>
+                <br>
+                <br>
+                <ul class="list-inline">
+                  <li>· Objective: Create a functional social media site.</li>
+                  <li>· Main technology: Django (Python) </li>
+                  <li>· Other Technologies: HTML & CSS</li>
+                </ul>
+                <p>· Description: <br>
+                  This is a Social Media Site that allows Users to send short Posts.<br>
+                  The Posts are grouped in Groups dedicated to particular topics.<br>
+                  Users can Log In and New Users can Sign Up.<br>
+                  Every visitor can check out the Groups and read the Posts, but...<br>
+                  only Users can Crate New Groups and Posts in the Groups.<br>
+                  Users can join to the Groups they want.<br>
+                  Each User have a Post History Page<br>
+                  Users can delete their Posts, but only Admins can delete the Groups, <br>
+                  this protects the rest of the posts in those Groups.<br>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Modal 2: Simon Game-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Simon Game</h2>
-                  <p class="item-intro text-muted">jQuery</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                  <p> Simon will give the first signal. Repeat the signal by pressing the same color button.
-                    On each new level Simon will add a signal and we have to repeat all the previous sequence adding the last signal.<br>
-                    If you fail to repeat the sequence exactly, the game is over.</p>
-                  <ul class="list-inline">
-                    <li>Objective: Create a game with sounds and animations</li>
-                    <li>Main technologies: jQuery & JavaScript</li>
-                    <li>Other Technologies: HTML & CSS</li>
-                  </ul>
-                  <button class="btn btn-secondary btn-modal mb-1" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Description
-                  </button>
-                  <a class="btn btn-dark btn-modal mb-1" href="https://github.com/ChristianVillalba/simon-game-jquery" target="_blank">
-                    <i class="fab fa-github mr-1"></i>
-                    Code on GitHub
-                  </a>
-                  <a class="btn btn-primary btn-modal mb-1" href="simongame\simongame.html" target="_blank">
-                    <i class="fas fa-folder-open mr-1"></i>
-                    Open This Project
-                  </a>
-                </div>
+  </div>
+  <!-- Modal 2: Simon Game-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project Details Go Here-->
+                <h2 class="text-uppercase">Simon Game</h2>
+                <p class="item-intro text-muted"><b>jQuery</b></p>
+                <a href="simongame\simongame.html" target="_blank"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" /></a>
+                <button class="btn btn-secondary btn-modal mb-1" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Description
+                </button>
+                <a class="btn btn-dark btn-modal mb-1" href="https://github.com/ChristianVillalba/simon-game-jquery" target="_blank">
+                  <i class="fab fa-github mr-1"></i>
+                  Code on GitHub
+                </a>
+                <a class="btn btn-primary btn-modal mb-1" href="simongame\simongame.html" target="_blank">
+                  <i class="fas far fa-eye mr-1"></i>
+                  Live Preview
+                </a>
+                <br>
+                <br>
+                <p><i class="fas fa-exclamation-triangle mr-1"></i><i class="fas fa-volume-up mr-1"></i> Warning: Sounds</p>
+                <ul class="list-inline">
+                  <li>· Objective: Create a game with sounds and animations</li>
+                  <li>· Main technologies: jQuery & JavaScript</li>
+                  <li>· Other Technologies: HTML & CSS</li>
+                </ul>
+                <p>How to play: <br>
+                  · Simon will give the first signal. <br>
+                  · Repeat the signal by pressing the same color button. <br>
+                  · On each new level Simon will add a signal and <br>
+                  we have to repeat all the previous sequence adding the last signal.<br>
+                  · If you fail to repeat the sequence exactly, the game is over.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Modal 3: Drum Kit-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Drum Kit</h2>
-                  <p class="item-intro text-muted">JavaScript</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                  <p>This application uses JavaScript to create an interactive drum kit.<br>
+  </div>
+  <!-- Modal 3: Drum Kit-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project Details Go Here-->
+                <h2 class="text-uppercase">Drum Kit</h2>
+                <p class="item-intro text-muted"><b>JavaScript</b></p>
+                <a href="drumkit\drumkit.html" target="_blank"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" /></a>
+                <button class="btn btn-secondary mb-1" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Description
+                </button>
+                <a class="btn btn-dark mb-1" href="https://github.com/ChristianVillalba/drum-kit" target="_blank">
+                  <i class="fab fa-github mr-1"></i>
+                  Code on GitHub
+                </a>
+                <a class="btn btn-primary mb-1" href="drumkit\drumkit.html" target="_blank">
+                  <i class="fas far fa-eye mr-1"></i>
+                  Live Preview
+                </a>
+                <br>
+                <br>
+                <p> <i class="fas fa-exclamation-triangle mr-1"></i><i class="fas fa-volume-up mr-1"></i> Warning: Sounds</p>
+                <ul class="list-inline">
+                  <li>· Objective: Create an interactive application with sounds and animations</li>
+                  <li>· Main technology: JavaScript</li>
+                  <li>· Other Technologies: HTML & CSS</li>
+                </ul>
+                <p>· Description: <br>
+                  This application uses JavaScript to create an interactive drum kit.<br>
                   It contains buttons that can be activated independently.<br>
-                  Each button represents a part of a 7-piece Drum Kit. Have fun!</p>
-                  <ul class="list-inline">
-                    <li>Objective: Create an interactive application with sounds and animations</li>
-                    <li>Main technology: JavaScript</li>
-                    <li>Other Technologies: HTML & CSS</li>
-                  </ul>
-                  <button class="btn btn-secondary mb-1" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Description
-                  </button>
-                  <a class="btn btn-dark mb-1" href="https://github.com/ChristianVillalba/drum-kit" target="_blank">
-                    <i class="fab fa-github mr-1"></i>
-                    Code on GitHub
-                  </a>
-                  <a class="btn btn-primary mb-1" href="drumkit\drumkit.html" target="_blank">
-                    <i class="fas fa-folder-open mr-1"></i>
-                    Open This Project
-                  </a>
-                </div>
+                  Each button represents a part of a 7-piece Drum Kit. <br>
+                  Have fun!</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Modal 4: This Site-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">This Website</h2>
-                  <p class="item-intro text-muted">Bootstrap</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                  <p>This project combines two different templates from startbootstrap.com: "agency" & "resume". <br>
-                  I worked directly with the Bootstrap Repository instead of using the CDN in order to get used to the elements available in this framework.</p>
-                  <ul class="list-inline">
-                    <li>Objective: Create my personal site so I can include my portfolio and my finished projects</li>
-                    <li>Main technologies: Bootstrap & CSS</li>
-                    <li>Other Technologies: HTML & JavaScript</li>
-                  </ul>
-                  <button class="btn btn-secondary mb-1" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Description
-                  </button>
-                  <a class="btn btn-dark mb-1" href="https://github.com/ChristianVillalba/personal-site.git" target="_blank">
-                    <i class="fab fa-github mr-1"></i>
-                    Code on GitHub
-                  </a>
-                 <!-- Keep here : button that opens the project in a new tab-->
-                  <!-- <a class="btn btn-primary" href="____" target="_blank">
-                    <i class="fas fa-folder-open mr-1"></i>
-                    Open This Project
+  </div>
+  <!-- Modal 4: This Site-->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project Details Go Here-->
+                <h2 class="text-uppercase">About This Website</h2>
+                <p class="item-intro text-muted"><b>Bootstrap</b></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                <ul class="list-inline">
+                  <li>· Objective: Create my personal site <br>
+                    so I can include my portfolio and my finished projects</li>
+                  <li>· Main technologies: Bootstrap & CSS</li>
+                  <li>· Other Technologies: HTML & JavaScript</li>
+                </ul>
+                <p> · Description: <br>
+                  This Website and the projects included are responsive.<br>
+                  The design and functionality pretend to be as clear and intuitive as possible.<br>
+                  I personalized and combined templates from startbootstrap.com.<br>
+                  The projects showcase the skills I listed as "Technical Skills".<br>
+                </p>
+
+                <button class="btn btn-secondary mb-1" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Description
+                </button>
+                <a class="btn btn-dark mb-1" href="https://github.com/ChristianVillalba/personal-site.git" target="_blank">
+                  <i class="fab fa-github mr-1"></i>
+                  Code on GitHub
+                </a>
+                <!-- Keep here : button that opens the project in a new tab-->
+                <!-- <a class="btn btn-primary" href="____" target="_blank">
+                    <i class="fas far fa-eye mr-1"></i>
+                    Live Preview
                   </a> -->
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Interests-->
-    <section class="resume-section" id="interests">
-      <div class="resume-section-content">
-        <h2 class="mb-4">Interests</h2>
-        <p>My main goal is to become a Full-Stack Developer.</p>
-        <p class="mb-0">I enjoy using front-end technologies thinking of making the site appealing <br>
-            and back-end components to make dynamic web applications that users can interact with.</p>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Certifications-->
-    <section class="resume-section" id="certifications">
-      <div class="resume-section-content">
-        <h2 class="mb-4">Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <a href="https://www.udemy.com/certificate/UC-7a79f48f-b490-46b0-bc23-94d2e7c3e111/" target="_blank">
-              <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
-              The Complete Front-End Web Development Course
-            </a>
-          </li>
-          <li>
-            <a href="https://www.udemy.com/certificate/UC-18b0e6f6-0a33-4a7f-9aff-8961c1c78a25/" target="_blank">
-              <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
-              Python and Django Full Stack Web Developer Bootcamp
-            </a>
-          </li>
-          <li>
-            <a href="https://www.udemy.com/certificate/UC-192b0ec7-ca7d-42a2-bf4b-d8cc330900bc/" target="_blank">
-              <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
-              Automate the Boring Stuff with Python
-            </a>
-          </li>
-          <li>
-            <a href="https://www.udemy.com/certificate/UC-TM2EH9W3/" target="_blank">
-              <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
-              Complete Python Bootcamp From Zero to Hero in Python
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+  </div>
+  <!-- Interests-->
+  <section class="resume-section" id="interests">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Interests</h2>
+      <p>My main goal is to become a Full-Stack Developer.</p>
+      <p class="mb-4">I enjoy using front-end technologies thinking of making the site appealing <br>
+        and back-end components to make dynamic web applications that users can interact with.</p>
+
+      <p class="mb-0">These are my first steps as a programmer.</p>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Certifications-->
+  <section class="resume-section" id="certifications">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Certifications</h2>
+      <ul class="fa-ul mb-0">
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-7a79f48f-b490-46b0-bc23-94d2e7c3e111/" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            The Complete Front-End Web Development Course
+          </a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-18b0e6f6-0a33-4a7f-9aff-8961c1c78a25/" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            Python and Django Full Stack Web Developer Bootcamp
+          </a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-192b0ec7-ca7d-42a2-bf4b-d8cc330900bc/" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            Automate the Boring Stuff with Python
+          </a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-TM2EH9W3/" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            Complete Python Bootcamp From Zero to Hero in Python
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
   </div>
   <!-- Bootstrap core JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
