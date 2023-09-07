@@ -10069,6 +10069,8 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
   }
   #sideNav .navbar-brand {
     display: flex;
